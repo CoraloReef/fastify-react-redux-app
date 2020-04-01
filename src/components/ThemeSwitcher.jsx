@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import i18next from 'i18next';
 
 import { actions } from '../slices';
 
@@ -24,8 +25,8 @@ const ThemeSwitcher = (props) => {
     <div>
       <h4>{currentThemeName}</h4>
       <div>
-        <button className="btn btn-light mx-2" onClick={changeTheme('light')}>Light</button>
-        <button className="btn btn-dark mx-2" onClick={changeTheme('dark')}>Dark</button>
+        <button className="btn btn-light mx-2" onClick={changeTheme('light')}>{i18next.t('themeLight')}</button>
+        <button className="btn btn-dark mx-2" onClick={changeTheme('dark')}>{i18next.t('themeDark')}</button>
       </div>
     </div>
   );
