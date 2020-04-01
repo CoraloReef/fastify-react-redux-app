@@ -1,0 +1,9 @@
+extends ../layouts/application.pug
+
+block content
+  .jumbotron.mb-5
+    .display-4= t('views.welcome.index.hello')
+    p.lead= t('views.welcome.index.description')
+    hr
+    a.btn.btn-primary.btn-lg(href=route('users'))= t('views.welcome.index.more')
+  #root
