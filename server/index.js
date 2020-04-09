@@ -117,7 +117,7 @@ export default () => {
 
   registerPlugins(app);
 
-  setupLocalization(app);
+  setupLocalization();
   setUpViews(app);
   setUpStaticAssets(app);
   addRoutes(app);
