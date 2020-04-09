@@ -1,8 +1,8 @@
 // @ts-check
 
 import i18next from 'i18next';
-import User from '../entity/User.js';
-import encrypt from './../lib/secure.js';
+import User from '../entity/User';
+import encrypt from '../lib/secure';
 
 export default (app) => {
   app

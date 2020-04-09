@@ -2,8 +2,7 @@
 
 extends:
   - 'airbnb-base'
-  - 'plugin:jest/recommended'
-  - "plugin:react/recommended"
+  - 'plugin:react/recommended'
 
 parser: babel-eslint
 
@@ -16,6 +15,8 @@ settings:
   import/resolver:
     - node
     - webpack
+  react:
+    version: require('./package.json').dependencies.react
 
 rules:
   import/extensions: 0
