@@ -2,7 +2,18 @@
    "name": "fastify-react-redux-app",
    "version": "0.1.0",
    "description": "Boilertplate Node.js application with simple authorization",
-   "keywords": ["fastify", "sqlite", "nodejs", "react", "redux", "toolkit", "scss", "i18next", "pug", "eslint"],
+   "keywords": [
+      "fastify",
+      "sqlite",
+      "nodejs",
+      "react",
+      "redux",
+      "toolkit",
+      "scss",
+      "i18next",
+      "pug",
+      "eslint"
+   ],
    "main": "",
    "scripts": {
       "test": "jest",
